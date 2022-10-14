@@ -1,0 +1,109 @@
+body{
+    background-size:cover ;
+    background-size: 75%;
+    width: 200px;
+    height: 200px;
+ 
+    
+}
+.img{
+    border-radius: 70%;
+}
+#Home{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 15px;
+ border-radius:  30px; 
+ background-color:#6987ff;
+ color: black;
+}
+#footeux{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 15px;
+ border-radius:  30px; 
+ background-color: #6987ff;
+ color: black;
+ transition: 0.5s;
+}
+
+#Rug{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 15px;
+ border-radius:  30px; 
+  background-color: #6987ff;
+  transition: 0.5s;
+}
+#Tn{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 15px;
+ border-radius:  30px; 
+ background-color:#6987ff;
+ transition: 0.5s;
+}
+.tennis-ball
+{
+    width: 100px;
+    position: absolute;
+    animation: tennis 4s linear infinite alternate;
+}
+@keyframes tennis
+{
+    0%
+    {
+        top:0vh;
+        left: 0px;
+        transform: rotate(0deg);
+    }
+    25%
+    {
+        top: 90vh;
+        left: 300px;
+        transform: rotate(360deg);
+    }
+    50%
+    {
+        top: 0vh;
+        left: 600px;
+        transform: rotate(0deg);
+    }
+    75%
+    {
+        top: 90vh;
+        left: 900px;
+        transform: rotate(360deg);
+    }
+    100%
+    {
+        top: 0vh;
+        left: 1200px;
+        transform: rotate(0deg);
+    }
+}
+.bnt3{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 15px;
+    background-color:#6987ff;
+ border-radius:  30px; 
+ color: black;
+ transition: 0.5s;
+}
+
+#board{
+    width: 1310px;
+    height: 200px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    left: 5px;
+    border-radius: 3%;
+    
+}
